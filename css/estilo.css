@@ -557,8 +557,8 @@ footer a:hover {
 }
 
 .fa-brands {
-  margin-right: 5px;
-  margin-left: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 /* cierre de header */
@@ -642,13 +642,14 @@ footer a:hover {
   justify-content: space-evenly;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 40px 50px 50px 50px;
 }
-.flex_section_servicios h2 {
+
+h2 {
   text-align: center;
   font-size: 25px;
 }
-.flex_section_servicios p {
+
+p {
   text-align: center;
   font-size: 14px;
 }
@@ -670,7 +671,7 @@ footer a:hover {
   text-align: center;
   flex: 1;
   min-width: 250px;
-  margin: 0px 35px 35px 35px;
+  margin: 0px 35px 0px 35px;
 }
 
 /* cierre de cajita4/

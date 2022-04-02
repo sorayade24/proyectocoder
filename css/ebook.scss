@@ -133,8 +133,8 @@
   }
   
   .fa-brands {
-    margin-right: 5px;
-    margin-left: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
   }
   
   /* cierre de header */
@@ -227,7 +227,7 @@
     justify-content: space-evenly;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 40px 50px 50px 50px;
+  }
   
     h2 {
       text-align: center;
@@ -238,7 +238,7 @@
       text-align: center;
       font-size: 14px;
     }
-  }
+
   
   .fa-graduation-cap, .fa-book-open, .fa-chalkboard-user {
     color: white;
@@ -258,7 +258,7 @@
     text-align: center;
     flex: 1;
     min-width: 250px;
-    margin: 0px 35px 35px 35px;
+    margin: 0px 35px 0px 35px;
   }
   
   /* cierre de cajita4/
