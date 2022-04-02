@@ -1,0 +1,377 @@
+#body_nat {
+    margin: 0px;
+  }
+  
+  .grid-layout {
+    height: 650px;
+    display: grid;
+    grid-template-areas: 'cabecera cabecera' 'menu menu' 'tips tips' 'beneficios beneficios' 'descarga descarga' 'footer footer';
+    grid-template-rows: auto 495px auto;
+  }
+  
+  .caja {
+    text-align: center;
+  }
+  
+  .c1 {
+    grid-area: cabecera;
+    background-color: #f9f7f3;
+    padding: 15px 0px 15px 0px;
+  }
+  
+  .c2 {
+    grid-area: menu;
+    background-image: url("../assets/img/descargar-ebook-decoracion.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 73px;
+  }
+  
+  .c3 {
+    grid-area: tips;
+    background-color: white;
+  }
+  
+  .c4 {
+    grid-area: beneficios;
+    background-color: #f9f7f3;
+    padding: 80px 0 80px 0;
+  }
+  
+  .c5 {
+    grid-area: descarga;
+    background-color: white;
+    padding-bottom: 100px;
+  }
+  
+  .c7 {
+    grid-area: footer;
+    background-color: white;
+    padding: 30px;
+  }
+  
+  /* cierre de grid*/
+  
+  /* header */
+  
+  .logo {
+    font-family: 'cardo';
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 100;
+    margin: 0px;
+    padding: 10px;
+    flex-basis: 25%;
+    flex-grow: 1;
+    text-align: center;
+  
+    a {
+      font-family: 'cardo';
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      font-size: 42px;
+      font-weight: 100;
+      margin: 0px;
+      padding: 10px;
+      text-align: left;
+      text-decoration: none;
+      color: var(--black);
+    }
+  }
+  
+  #header__nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .menu_nat {
+    flex-grow: 1;
+    flex-basis: 52%;
+    height: 100%;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu_items_nat {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .menu_nat li {
+    list-style: none;
+  
+    a {
+      color: #555555;
+      text-decoration: none;
+      font-family: montserrat;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      padding: 8px;
+      margin-right: 10px;
+      background-image: linear-gradient(#D8B085, #D8B085);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size .3s;
+  
+      &:hover {
+        background-size: 100% 2px;
+      }
+    }
+  }
+  
+  .fa-brands {
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+  
+  /* cierre de header */
+  
+  /* cajita2 */
+  
+  .flex_section_portada {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  #cajita {
+    background-color: white;
+    text-align: center;
+    padding: 49px;
+    flex-basis: 27%;
+  
+    h1 {
+      font-family: 'cardo';
+      font-size: 38px;
+      font-weight: 100;
+      color: #454343;
+      margin: 10px 0px 10px 0px;
+      line-height: 45px;
+  
+      em {
+        font-family: 'cardo';
+        font-size: 38px;
+        font-weight: 100;
+        color: #454343;
+      }
+    }
+  
+    p {
+      font-family: 'montserrat';
+      font-size: 11px;
+      font-weight: 800;
+      color: #454343;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      line-height: 30px;
+    }
+  
+    img {
+      width: 100%;
+    }
+  }
+  
+  /* cierre de cajita2/
+  /* cajita3*/
+  
+  .flex_section_sobremi {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  #cajita1 {
+    background-color: white;
+    padding: 30px;
+    flex: 1;
+    margin: 20px;
+    min-width: 250px;
+  
+    p {
+      font-family: 'lora';
+      font-size: 16px;
+      font-weight: 100;
+      line-height: 30px;
+      text-align: center;
+    }
+  }
+  
+  /* cierre de cajita3/
+  /* cajita4*/
+  
+  .titulosec {
+    text-align: center;
+    padding: 20px 0 35px 0;
+  }
+  
+  .flex_section_servicios {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 50px 50px 50px;
+  
+    h2 {
+      text-align: center;
+      font-size: 25px;
+    }
+  
+    p {
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+  
+  .fa-graduation-cap, .fa-book-open, .fa-chalkboard-user {
+    color: white;
+    background-color: #D8B085;
+    padding: 20px;
+    border-radius: 100%;
+    font-size: 20px;
+    transition: all 0.5s;
+  
+    &:hover {
+      color: #D8B085;
+      background-color: var(--black);
+    }
+  }
+  
+  #cajita1_ser, #cajita2_ser, #cajita3_ser {
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+    margin: 0px 35px 35px 35px;
+  }
+  
+  /* cierre de cajita4/
+  /* cajita5*/
+  
+  .flex_section_descarga {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 50px 50px 50px;
+  }
+  
+  .boton {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    fill: #171717;
+    color: #171717;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #D8B085;
+    border-radius: 0px 0px 0px 0px;
+    padding: 20px;
+    transition: all 0.5s;
+  
+    &:hover {
+      color: white;
+      background-color: #D8B085;
+      border-color: #D8B085;
+    }
+  }
+  
+  /* cierre de cajita5/
+  /* cajita7*/
+  
+  footer {
+    p, a {
+      font-family: 'montserrat';
+      font-size: 12px;
+    }
+  }
+  
+  /* mediaqueries*/
+  
+  @media screen and (max-width: 1000px) and (orientation: landscape) {
+    .menu_items_nat li {
+      margin: 5px 0 0 0;
+    }
+  
+    .menu_item_nat {
+      overflow: scroll;
+      height: calc(100% -  65px);
+    }
+  }
+  
+  @media screen and (max-width: 1032px) {
+    .menu_nat {
+      height: 65px;
+      flex-direction: row-reverse;
+    }
+  
+    .menu_items li {
+      margin: 30px 0 0 0;
+      line-height: 30px;
+    }
+  }
+  
+  @media only screen and (max-width: 981px) {
+    .c2 {
+      background-image: none !important;
+      background-color: white;
+    }
+  
+    #cajita {
+      padding: 0px !important;
+      flex: 1;
+  
+      h1 {
+        padding-top: 30px;
+      }
+    }
+  
+    .titnormal, .pafnormal {
+      display: none;
+    }
+  
+    .c2 {
+      padding: 0px 0px 30px 0px !important;
+    }
+  
+    .grid-layout {
+      height: 650px;
+      display: grid;
+      grid-template-areas: 'cabecera cabecera' 'menu menu' 'tips tips' 'beneficios beneficios' 'descarga descarga' 'footer footer';
+      grid-template-rows: auto;
+    }
+  }
+  
+  @media only screen and (min-width: 981px) {
+    .titresp, .pafresp, #cajita img {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 1000px) and (min-width: 675px) {
+    .c3 {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  }

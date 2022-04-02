@@ -1,0 +1,53 @@
+.header {
+    background-color: #f9f7f3 !important;
+  }
+  
+  .navbar-brand {
+    font-family: 'cardo';
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 100;
+    margin: 0px;
+    padding: 10px;
+    flex-basis: 25%;
+    flex-grow: 1;
+    text-align: left;
+    text-decoration: none;
+    flex-basis: 37%;
+    color: var(--black) !important;
+  }
+  
+  .navbar-light {
+    color: var(--black);
+    text-decoration: none;
+    font-family: montserrat;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 8px;
+    margin-right: 10px;
+    text-transform: uppercase;
+  
+    .navbar-brand {
+      color: var(--black) !important;
+    }
+  
+    .navbar-nav .nav-link {
+      color: var(--black) !important;
+      text-align: center !important;
+      background-image: linear-gradient(#D8B085, #D8B085);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size .3s;
+  
+      &:hover {
+        background-size: 100% 2px;
+      }
+    }
+  }
+  .menu {
+    max-width: 1000px;
+    margin: 0 auto;
+  }

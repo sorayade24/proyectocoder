@@ -1,0 +1,133 @@
+/* tipografías */
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Montserrat:ital,wght@0,300;0,400;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap');
+
+:root {
+  --black:#423637;
+  --beige:#f9f7f3;
+  --gold:#d8b185;
+}
+
+h2 {
+  color: var(--black);
+  font-family: 'cardo';
+  font-size: 33px;
+  font-weight: 100;
+  margin-bottom: 0px;
+}
+h1 {
+  color: var(--black);
+  font-family: 'cardo';
+  font-size: 33px;
+  font-weight: 100;
+  margin-bottom: 0px;
+}
+
+p {
+  font-family: 'lora';
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 30px;
+}
+hr {
+  &.gris {
+    background-color: #ECEAEA;
+    height: 1px;
+    width: 100%;
+    border: 0px;
+    max-width: 1000px;
+  }
+
+  &.dorado {
+    background-color: var(--gold);
+    height: 1px;
+    width: 100%;
+    border: 0px;
+    margin: 18px 0px 20px 0px;
+  }
+}
+#h2section {
+  font-size: 25px;
+}
+
+#psection {
+  font-size: 14px;
+}
+.btn {
+  margin: 0 auto !important;
+
+  &:active {
+    background-color: var(--gold) !important;
+    border-color: var(--gold) !important;
+  }
+}
+
+.btn-primary {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  fill: #171717;
+  color: #171717;
+  background-color: #FFFFFF;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #D8B085;
+  border-radius: 0px 0px 0px 0px;
+  padding: 20px;
+  transition: all 0.5s;
+
+  &:hover {
+    color: white;
+    background-color: #D8B085;
+    border-color: #D8B085;
+  }
+}
+.display-3 {
+  font-family: 'cardo';
+  font-size: 38px;
+  font-weight: 100 !important;
+  color: var(--black) !important;
+}
+
+.lead {
+  font-family: 'montserrat';
+  font-size: 11px;
+  font-weight: 800;
+  color: var(--black) !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+.fa-brands {
+  font-size: 15px;
+  margin-right: 10px;
+  color: var(--black);
+}
+
+.bg-light {
+  background-color: #f8f9fa00 !important;
+  padding: 20px;
+}
+
+.bloque1 {
+  padding-top: 100px!important;
+}
+
+.bloque2 {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+
+
+.bloque3 {
+  padding: 80px 0px 80px 0px!important;
+}

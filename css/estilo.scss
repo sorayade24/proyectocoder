@@ -1,0 +1,22 @@
+
+@use 'base';
+@use 'encabezado';
+@use 'sobremi';
+@use 'galeria';
+@use 'servicios';
+@use 'portada';
+@use 'contacto';
+@use 'footer';
+@use 'inicio';
+@use 'ebook';
+
+
+
+/* responsive */
+
+
+@media only screen and (min-width: 991px) {
+  .resp {
+    display: none !important;
+  }
+}

@@ -1,0 +1,90 @@
+.formulario {
+    padding: 100px 0px 100px 0px;
+  }
+  
+  .formulariocolumna {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .formulariocaja {
+    width: 100%;
+  }
+  
+  form {
+    width: 100%;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: var(--beige);
+  
+    label {
+      width: 100%;
+      font-weight: bold;
+      display: inline-block;
+      font-family: lora;
+    }
+  
+    input {
+      &[type="text"], &[type="email"] {
+        width: 100%;
+        padding: 3px 10px;
+        border: 1px solid white;
+        border-radius: 3px;
+        background-color: white;
+        margin: 8px 0;
+        display: inline-block;
+      }
+  
+      &[type="submit"] {
+        width: 100%;
+        padding: 8px 16px;
+        margin-top: 32px;
+        border: 1px solid var(--gold);
+        border-radius: 5px;
+        display: block;
+        color: white;
+        background-color: var(--gold);
+  
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: white;
+    margin: 8px 0;
+  
+    /*resize: vertical | horizontal | none | both*/
+    resize: none;
+    display: block;
+  }
+  
+  .form .input:focus-visible {
+    border-color: var(--gold) !important;
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .pt-5 {
+      display: none !important;
+    }
+  
+    .titsbm {
+      padding-bottom: 30px;
+    }
+  
+    .int {
+      padding-bottom: 40px;
+    }
+  
+    .reproductor {
+      width: 100%;
+    }
+  }

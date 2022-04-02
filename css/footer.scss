@@ -1,0 +1,22 @@
+footer {
+    padding: 30px 0px 30px 0px;
+    max-width: 1000px;
+    margin: 0 auto;
+  
+    p {
+      font-family: 'montserrat';
+      font-size: 12px;
+      text-align: center;
+    }
+  
+    a {
+      font-family: 'montserrat';
+      font-size: 12px;
+      color: var(--black);
+  
+      &:hover {
+        color: var(--gold);
+      }
+    }
+  }
+  

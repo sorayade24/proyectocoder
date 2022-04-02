@@ -1,0 +1,26 @@
+#galeria {
+    max-width: 1000px;
+    padding: 60px 50px 100px 50px;
+  
+    img {
+      width: 100%;
+    }
+  
+    .col-lg-4 {
+      padding: 10px;
+    }
+  }
+  
+  .rowgaleria {
+    padding-top: 40px;
+  }
+  
+  .imgfilter {
+    transition: all 0.5s;
+  
+    &:hover {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+      filter: opacity(0.5);
+    }
+  }

@@ -1,0 +1,45 @@
+.servicios {
+    background-color: var(--beige);
+    padding: 100px 50px 100px 50px;
+  }
+  
+  .sercolumnas {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .imgserv {
+    width: 100%;
+    padding-bottom: 30px;
+    transition: all 0.5s;
+  
+    &:hover {
+      filter: opacity(0.5);
+    }
+  }
+  
+  .columnserv {
+    padding: 0px 35px 35px 35px;
+  }
+  
+  .serpag {
+    background-color: white;
+  }
+
+.video {
+    background-color: var(--beige);
+    padding: 100px 0px 100px 0px;
+  }
+  
+  .cvideo {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .reproductor {
+    width: 560px;
+    height: 315px;
+    margin: 0 auto;
+  }
+  
